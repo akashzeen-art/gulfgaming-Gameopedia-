@@ -1,6 +1,30 @@
 // Game data
 const gamesData = [
   {
+    name: "Mine Rusher",
+    url: "https://cdn.timepass.games/games/05cb773c-9b54-4773-aedc-24a42b568584/aee3cd6b-808d-432b-be3d-e0efe6b2f2ee/",
+    thumbnail: "https://cdn.timepass.games/images/b74fdc93-2184-4ece-805b-069e21ba4845.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Sling Tomb",
+    url: "https://cdn.timepass.games/games/66550db6-b343-4464-b34c-8bbd70119da7/50a48faa-d9af-4264-80d1-b85981c4ccc7/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/16883c16-6aa3-48af-8254-3ec167bf1810.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Mahjong Solitaire",
+    url: "https://cdn.timepass.games/games/bc929069-0670-49fd-821f-c3085604e9d8/e94f1719-5136-4dd5-b8ea-8a1b72874a96/",
+    thumbnail: "https://cdn.timepass.games/images/adf199f1-858e-46ac-bcc8-98e689f90cae.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Draw The Rest",
+    url: "https://cdn.timepass.games/games/f67c362d-1b8e-43f9-a664-5fdacd00566f/deb2af43-72f7-4ff2-bda6-c90541553fc3/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/bb13f01c-c64f-4d73-a94e-216dd5c70d2f.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "Plane Shooter",
     url: "https://cdn.timepass.games/games/3a629624-e93b-4254-a3b7-2a6dd672603e/f87a5424-8e8d-43c9-b637-67bd0815dfec/",
     thumbnail: "https://cdn.simpleviralgames.com/images/778f333c-e577-4c42-b173-0f727f2d69d4.webp",
@@ -10,181 +34,229 @@ const gamesData = [
     name: "Pinball",
     url: "https://cdn.timepass.games/games/638590c1-dffd-4472-aab5-e487876cf40b/b9e29477-30f5-40be-a068-3cd6c74b2d22/",
     thumbnail: "https://cdn.timepass.games/images/86effeca-2f9b-471e-8222-81b418154c30.webp",
-    categories: ["All Games", "Easy to Play", "Arcade"]
+    categories: ["All Games","Easy to Play","Arcade"]
   },
   {
     name: "Draw Parking",
     url: "https://cdn.timepass.games/games/76edfca4-d152-41f3-9b85-121afd48114d/9b8afc52-8ae7-43dd-b708-a3b85d30ec99/",
     thumbnail: "https://cdn.timepass.games/images/0e0b6ae2-1089-44ad-923a-1fc66f372aa5.webp",
-    categories: ["Top 10 Games", "All Games", "Easy to Play"]
+    categories: ["Top 10 Games","All Games","Easy to Play"]
   },
   {
     name: "Disk Throw",
     url: "https://cdn.timepass.games/games/3e9874b7-6ae2-4b1d-a03f-e4e7afb8b21d/3fc4f7ef-6e82-4f5d-b76b-0a5cf6a62c12/",
     thumbnail: "https://cdn.timepass.games/images/rdkmdgzgne.webp",
-    categories: ["All Games", "Easy to Play"]
+    categories: ["All Games","Easy to Play"]
   },
   {
     name: "Golf Field",
     url: "https://cdn.timepass.games/games/ad679fcd-8d23-4fae-958e-e5458d85c3cb/590501a3-5b54-4ea2-9f26-8051ce278504/",
     thumbnail: "https://cdn.timepass.games/images/b5a85350-4415-4ad8-902d-5ad3993de95e.webp",
-    categories: ["All Games", "Easy to Play", "Arcade"]
+    categories: ["All Games","Easy to Play","Arcade"]
   },
   {
     name: "Jumping Ball",
     url: "https://cdn.timepass.games/games/365c0a8d-fe76-479e-ab21-01e42eeaa13d/d2677155-073e-4a87-b4b7-a0bb60deb534/",
     thumbnail: "https://cdn.timepass.games/images/256b8f7d-d967-42c3-a19f-0592eab7696c.webp",
-    categories: ["All Games", "Arcade"]
+    categories: ["All Games","Arcade"]
   },
   {
     name: "Word Search 2",
     url: "https://cdn.timepass.games/games/cd325bd8-f518-4a47-b5b5-8260d49b7a64/b6355aec-ef96-4008-a695-eb2663869d5b/",
     thumbnail: "https://cdn.timepass.games/images/96fcf343-0f18-47e9-8e97-db78351bd40c.webp",
-    categories: ["Top 10 Games", "All Games", "Easy to Play", "Puzzle"]
+    categories: ["Top 10 Games","All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Path Control",
     url: "https://cdn.timepass.games/games/7cf88aaf-ff21-4ddf-8151-8cefe72374a4/da389ea3-a94a-473b-85b6-ff65d2595ace/",
     thumbnail: "https://cdn.timepass.games/images/dibafecjwc.webp",
-    categories: ["Top 10 Games", "All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Rope Bawling",
     url: "https://cdn.timepass.games/games/c87d3aef-358a-4db1-9543-f31f40144236/22519678-ead9-423c-84c6-e40bdb7d01d6/",
     thumbnail: "https://cdn.timepass.games/images/chafyrtssj.webp",
-    categories: ["All Games", "Easy to Play", "Arcade"]
+    categories: ["All Games","Easy to Play","Arcade"]
   },
   {
     name: "Water Sort 2",
     url: "https://cdn.timepass.games/games/d4f51a91-ac7d-4e51-8743-aeb04aa785cc/77699e88-698d-4be3-ac00-cfff056485c9/",
     thumbnail: "https://cdn.simpleviralgames.com/images/8bcbaffc-36b7-49a9-8a6e-4ee911a9290d.webp",
-    categories: ["Top 10 Games", "All Games", "Puzzle"]
+    categories: ["Top 10 Games","All Games","Puzzle"]
   },
   {
     name: "Happy Filled Glass 3",
     url: "https://cdn.timepass.games/games/8e40178e-2457-4dc1-ae60-add884f03f54/7f463157-8984-48fe-86e7-467047a4746b/",
     thumbnail: "https://cdn.timepass.games/images/f804e254-5946-4ee3-b400-a4d4cd4eafa3.webp",
-    categories: ["Top 10 Games", "All Games", "Puzzle"]
+    categories: ["Top 10 Games","All Games","Puzzle"]
   },
   {
     name: "Filled Glass",
     url: "https://cdn.timepass.games/games/39b82257-d32b-4635-ab73-e338e7092e3b/d0cf5ca1-f0f5-44a9-8a12-aa0f9985e320/",
     thumbnail: "https://cdn.timepass.games/images/tpbgwvlcek.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
+  },
+  {
+    name: "Zombie Crusher",
+    url: "https://cdn.timepass.games/games/9cac2c11-67b6-4303-891a-f3c5fe9d4b03/a15f234b-2818-4ea1-91d9-1f8e30e5a396/",
+    thumbnail: "https://cdn.timepass.games/images/ebf2dbe2-7ecc-463a-a844-946bb4b275b4.webp",
+    categories: ["All Games","Easy to Play","Action"]
   },
   {
     name: "Soccer Free Kick",
     url: "https://cdn.timepass.games/games/7fef838f-cb11-4296-b289-d1b44236a66c/d85f3049-c241-4204-a045-9df040dd7137/",
     thumbnail: "https://cdn.timepass.games/images/lcxgyvpymf.webp",
-    categories: ["All Games", "Easy to Play", "Action"]
+    categories: ["All Games","Easy to Play","Action"]
   },
   {
     name: "Coloured Water And Pin",
     url: "https://cdn.timepass.games/games/1cf52380-4aa2-40a1-b255-d76e8f99c920/48a669cb-d918-4672-ad3b-be0ea0eb7bc1/",
     thumbnail: "https://media.simpleviralgames.com/images/swtnvgdxne.webp",
-    categories: ["All Games", "Easy to Play"]
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Flappy UFO",
+    url: "https://cdn.timepass.games/games/bc249551-0bce-46d0-9760-3d249d2db2c9/e7c52d5c-d943-4662-9fe8-8607751dcaac/",
+    thumbnail: "https://cdn.timepass.games/images/f9d2fe90-da86-4c3f-8da0-179e6a8fefeb.webp",
+    categories: ["All Games","Easy to Play","Action"]
   },
   {
     name: "Racoon Rescue",
     url: "https://cdn.timepass.games/games/8a31626c-daea-47ef-8112-ec3388960b10/cee72dd3-bc59-4305-8876-51abc46360c5/",
     thumbnail: "https://cdn.timepass.games/images/qawbgrinzp.webp",
-    categories: ["Top 10 Games", "All Games", "Action"]
+    categories: ["Top 10 Games","All Games","Action"]
+  },
+  {
+    name: "Fantasy Forest",
+    url: "https://cdn.timepass.games/games/a640e65e-f8cf-45ed-904b-6f95e125c358/699be819-8b88-4e6d-a042-c3c0f5bcfc62/",
+    thumbnail: "https://cdn.timepass.games/images/xvmhylbhxe.webp",
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Dig The Way Up",
     url: "https://cdn.timepass.games/games/2bb41d75-521a-4905-bfde-819db24e353f/87afae6f-005d-4366-8a17-d96ab07673e6/",
     thumbnail: "https://cdn.timepass.games/images/bfjgemfozs.webp",
-    categories: ["Top 10 Games", "All Games", "Easy to Play", "Puzzle"]
+    categories: ["Top 10 Games","All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Word Game",
     url: "https://cdn.timepass.games/games/538ff814-69c1-4bea-a072-a2ca6504ff95/26254883-f4c0-4fdc-bc15-6f58e15c9c06/",
     thumbnail: "https://cdn.simpleviralgames.com/images/d6757053-2cc4-45cf-89aa-bbe21f215f2c.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Stack Builder",
     url: "https://cdn.timepass.games/games/fe35e910-31a9-4759-abdb-5549ad5feb7f/402bbc3a-3ebf-4e0f-8c0a-1f4367315c98/",
     thumbnail: "https://cdn.timepass.games/images/cf9f42e4-d560-4c9a-8b49-ae5ad4a52daf.webp",
-    categories: ["All Games", "Easy to Play", "Arcade"]
+    categories: ["All Games","Easy to Play","Arcade"]
   },
   {
     name: "Little Panda",
     url: "https://cdn.timepass.games/games/9ba9bef2-8483-4c94-92a3-b3896a3e9c9b/f4311c05-9336-4be6-babe-3febf30a73e0/",
     thumbnail: "https://cdn.simpleviralgames.com/images/aef9b868-a916-42ff-956a-3ac5ed6f2dcc.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Block Puzzle",
     url: "https://cdn.timepass.games/games/c391c22f-189e-4939-b5ce-84015e81f496/0fbff431-d452-41ae-b86a-58ec082ccc4d/",
     thumbnail: "https://cdn.timepass.games/images/415bd359-78a1-4fce-b67f-2f34204b0287.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "World Cup Glass",
     url: "https://cdn.timepass.games/games/a5864009-0b38-4888-8706-4f6f3181c8b6/e48d2c3b-d0ea-4dca-a1ca-6e494f95b465/",
     thumbnail: "https://cdn.timepass.games/images/fazwujgsya.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
+  },
+  {
+    name: "Whack A Mole",
+    url: "https://cdn.timepass.games/games/c36487ad-db9a-4376-86cc-8d792c4e3196/06fe9a19-ab13-46d2-be11-3fc61daa2f66/",
+    thumbnail: "https://cdn.timepass.games/images/1bedc458-bb25-4c9e-ba12-ff48ce262944.webp",
+    categories: ["All Games","Easy to Play","Action"]
   },
   {
     name: "Black Hole Square",
     url: "https://cdn.timepass.games/games/5f09f9c0-ebdc-44f7-a597-ce126f1395b9/f9d4e2d3-46af-4761-a0b0-0660fb7458d0/",
     thumbnail: "https://cdn.timepass.games/images/lubivxftjq.webp",
-    categories: ["All Games", "Puzzle"]
+    categories: ["All Games","Puzzle"]
   },
   {
     name: "Matchimals",
     url: "https://cdn.timepass.games/games/22d40dbe-484e-42ca-88fc-750cfbc37c47/698e2601-581c-45ff-a35f-68a9670f4968/",
     thumbnail: "https://cdn.timepass.games/images/xjvcumrfge.webp",
-    categories: ["Top 10 Games", "All Games", "Puzzle"]
+    categories: ["Top 10 Games","All Games","Puzzle"]
   },
   {
     name: "Hexahedral",
     url: "https://cdn.timepass.games/games/9e9aa8a9-345a-4f0e-b422-b416c240a900/6170624b-323d-45c8-baf5-94155ecbda7c/",
     thumbnail: "https://cdn.timepass.games/images/pvvdqjvaat.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
+  },
+  {
+    name: "Dribble King",
+    url: "https://cdn.timepass.games/games/e1af349e-4ff6-4d3d-846f-e4c2d4a8ce6f/e8850a72-9033-47bb-b879-1ebebe318c38/",
+    thumbnail: "https://cdn.timepass.games/images/f7e465b2-f361-4006-8b36-d962dce2856b.webp",
+    categories: ["All Games","Easy to Play"]
   },
   {
     name: "Rubiks Cube",
     url: "https://cdn.timepass.games/games/88a689b6-3137-4f35-94ed-0d6e318581b0/dbce83c8-9929-4076-a8a1-e583aae15b10/",
     thumbnail: "https://cdn.timepass.games/images/lzpoamoefw.webp",
-    categories: ["All Games", "Puzzle"]
+    categories: ["All Games","Puzzle"]
   },
   {
     name: "Tap Tap Tap",
     url: "https://cdn.timepass.games/games/5e970330-ede7-41b3-94d3-35501b931ac3/d88286a7-184b-433b-8502-9b399aac2f8f/",
     thumbnail: "https://media.simpleviralgames.com/images/eodwkhywps.webp",
-    categories: ["All Games", "Easy to Play", "Action"]
+    categories: ["All Games","Easy to Play","Action"]
   },
   {
     name: "Tetris",
     url: "https://cdn.timepass.games/games/069189e0-90a3-4322-bd77-427a491ad2ca/1bab70f8-b316-47b0-a7dd-5534cc3a523d/",
     thumbnail: "https://cdn.timepass.games/images/c6576ae5-de52-4c36-b82f-bd689a24dc73.webp",
-    categories: ["All Games", "Easy to Play"]
+    categories: ["All Games","Easy to Play"]
   },
   {
     name: "Stack",
     url: "https://cdn.timepass.games/games/954a1061-ab71-4cf2-b203-bbfe8be0ee3e/65f8fba3-6fe5-436d-9fad-637c137bdfaf/",
     thumbnail: "https://cdn.timepass.games/images/a20aefe1-6346-4087-a511-74266d3cf351.webp",
-    categories: ["All Games", "Easy to Play", "Arcade"]
+    categories: ["All Games","Easy to Play","Arcade"]
   },
   {
     name: "One",
     url: "https://cdn.timepass.games/games/f6e1211a-8545-4800-b1a3-9692a51ddb0d/c61ff222-7d97-4069-9a8b-316da845e079/",
     thumbnail: "https://cdn.timepass.games/images/fonyudyjcq.webp",
-    categories: ["All Games", "Easy to Play", "Puzzle"]
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Water Sort",
     url: "https://cdn.timepass.games/games/21671d29-ad22-43e7-8458-607cf7559662/bf04d760-ce19-4201-a6df-59bf1decf3c9/",
     thumbnail: "https://cdn.timepass.games/images/e1fb83a1-8c3a-4a0c-8af4-c4df369386ae.webp",
-    categories: ["All Games", "Puzzle"]
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Bottle Flip",
+    url: "https://cdn.timepass.games/games/94d599d8-6db4-4571-b45b-52f60eeb75b7/bcd1a29f-aa2c-4617-9575-711ee017f1e2/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/5dc287cf-c754-4c4e-bb6f-07b2ef88167c.webp",
+    categories: ["Top 10 Games","All Games","Arcade"]
+  },
+  {
+    name: "House Painter",
+    url: "https://cdn.timepass.games/games/f5e3374b-8f87-4886-9e04-78986f738f7f/ae4b233c-4503-4d68-8039-798bcdbdb9d5/",
+    thumbnail: "https://cdn.timepass.games/images/2ea91fe5-9b54-4d27-af0f-6586cb71dc75.webp",
+    categories: ["All Games","Easy to Play","Puzzle"]
   },
   {
     name: "Wordplay",
     url: "https://cdn.timepass.games/games/c219bbd2-f21b-43aa-a873-3e619091296b/5cd0efc6-bfb6-4520-a6c8-e833a0b1139c/",
     thumbnail: "https://cdn.timepass.games/images/pcsyxfdvpy.webp",
-    categories: ["All Games", "Easy to Play"]
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Archery",
+    url: "https://cdn.timepass.games/games/18afb0ff-5ea9-40fe-8c27-83a010d011fd/00c78c6f-8563-4b18-ad43-e39fb1e9e76a/",
+    thumbnail: "https://cdn.timepass.games/images/2f9ea5d0-a8ea-4a37-81fc-9c90986759c6.webp",
+    categories: ["All Games"]
   },
   {
     name: "Monster Destroyer",
@@ -211,21 +283,57 @@ const gamesData = [
     categories: ["All Games"]
   },
   {
+    name: "Pick it",
+    url: "https://cdn.timepass.games/games/69f239ad-74ac-4518-b1df-6e4eb37a57a9/1d7ea5a8-8ff6-4d62-a3d6-a00a10ede072/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/843d66a7-0a97-49cf-8392-ac817ab88b92.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "Car Out",
     url: "https://cdn.timepass.games/games/1daf8d2c-f867-40ee-b72f-5c878a69bc7b/9ad8d834-cbce-479e-8e48-826c2db9b265/",
     thumbnail: "https://cdn.simpleviralgames.com/images/aee481ae-9494-4097-b8e5-6c0b67724113.webp",
     categories: ["All Games"]
   },
   {
+    name: "2048",
+    url: "https://cdn.timepass.games/games/5a273870-0424-49a5-b485-68e7e73a7504/6229f31e-d835-4856-ab33-4cef07f3be5b/",
+    thumbnail: "https://cdn.timepass.games/images/d5914139-6ddb-4b6a-b198-ae4c49028530.webp",
+    categories: ["Top 10 Games","All Games","Puzzle"]
+  },
+  {
     name: "Color Cannon",
     url: "https://cdn.timepass.games/games/4dcfd91b-3ff6-461b-b655-aab5013d05ef/1dd76b9f-1b48-4c2c-a948-c6d5156a32d7/",
     thumbnail: "https://cdn.timepass.games/images/jktkaqinoy.webp",
-    categories: ["All Games", "Easy to Play"]
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Space Shooter",
+    url: "https://cdn.timepass.games/games/cfc03ecd-e59d-4b96-851c-984b2afc9cdd/b5530b1d-8811-49e8-8c62-a6e94408272b/",
+    thumbnail: "https://cdn.timepass.games/images/00b6cfcd-e5ce-4c17-a489-4e4e86851b98.webp",
+    categories: ["All Games"]
   },
   {
     name: "Hero Rescue",
     url: "https://cdn.timepass.games/games/b2586f6b-3e72-4e8d-ba03-90ba510ef2fa/52c75446-c4b3-473b-9a04-c9c760c4e2cb/",
     thumbnail: "https://cdn.simpleviralgames.com/images/5ba6a5c4-e09e-4732-879f-ef0259c71b8b.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Make7",
+    url: "https://cdn.timepass.games/games/4004da42-84ca-4fa6-8db9-e24a1a248031/6b75e397-26d1-4cac-8e71-174632c807de/",
+    thumbnail: "https://cdn.timepass.games/images/932faa9d-df03-427d-ab87-29e38437f188.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Pixel Brick Breaker",
+    url: "https://cdn.timepass.games/games/197b2d64-9d1c-475f-8b7f-b06c55a54ed7/2d564def-b895-478d-aebc-ef89724bd260/",
+    thumbnail: "https://cdn.timepass.games/images/b35ed56d-72bd-46fb-86b1-2b7cbfd05572.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Blocky",
+    url: "https://cdn.timepass.games/games/4477ab03-2d5c-48e0-a629-4e1ec0966493/166e3664-52c2-4879-b386-9df154803599/",
+    thumbnail: "https://cdn.timepass.games/images/95d88209-f3ad-43d2-aa1c-9421b419058c.webp",
     categories: ["All Games"]
   },
   {
@@ -265,6 +373,12 @@ const gamesData = [
     categories: ["All Games"]
   },
   {
+    name: "Equalz",
+    url: "https://cdn.timepass.games/games/61ad6692-d27f-4523-af01-a7096d3700ca/2b006d9b-468e-4e95-ae32-5fe060bf560a/",
+    thumbnail: "https://cdn.timepass.games/images/47eb20ce-ec3c-44e1-ae2e-e0ab5a45b122.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "Dunk Line",
     url: "https://cdn.timepass.games/games/7307a063-9d51-498c-a474-3a7bd64aa283/c1849f41-a1ae-4163-867b-0e67339b7906/",
     thumbnail: "https://cdn.timepass.games/images/6e2559e0-f754-461b-8afb-4f3e642f52a4.webp",
@@ -274,6 +388,18 @@ const gamesData = [
     name: "Number Snakes",
     url: "https://cdn.timepass.games/games/ea366b72-9ad8-4a21-b3d2-5ed1f661dc2b/fcad3676-4e8a-45e8-a34e-a8659e2202c3/",
     thumbnail: "https://cdn.simpleviralgames.com/images/7c8ecb78-2f57-413d-b503-d5a6e8f4b05f.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Disk Rush",
+    url: "https://cdn.timepass.games/games/7dd6c79c-b79a-4aa4-a82c-6e75b4ec384c/ec8d5b88-6330-413e-9ca3-d520f56f42b5/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/35e019ac-1adc-4c51-a4b4-32f771ece7fb.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Colored-Bricks",
+    url: "https://cdn.timepass.games/games/804839f6-f1cd-425b-b756-93250d632f92/1368cb84-e0d3-47a7-aa93-f55ea0f21396/",
+    thumbnail: "https://cdn.timepass.games/images/bad0a369-9426-485d-81ab-b17932594bba.webp",
     categories: ["All Games"]
   },
   {
@@ -451,15 +577,147 @@ const gamesData = [
     categories: ["All Games"]
   },
   {
+    name: "Cards 2048",
+    url: "https://cdn.timepass.games/games/5cff33ec-df09-4ceb-ac5f-3dec8d116fec/0ea31412-41c2-4b62-8ed8-11920738dec3/",
+    thumbnail: "https://cdn.timepass.games/images/324d625e-435d-4d9a-bb9d-4874eb453f64.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "Hexa Dice",
     url: "https://cdn.timepass.games/games/8031da35-b9a3-4d06-af94-1bc91c600831/95b0fa20-f3bc-455d-b8e5-6b25687d977a/",
     thumbnail: "https://cdn.timepass.games/images/02f54d30-b87e-43c5-86d7-0a65cebf0abb.webp",
     categories: ["All Games"]
   },
   {
+    name: "Dotted Fill",
+    url: "https://cdn.timepass.games/games/9e50a356-f4a1-443b-acdd-1c9bcf55fc0b/f0337d62-7158-49c9-98b2-d4cc48ac9749/",
+    thumbnail: "https://cdn.timepass.games/images/8f561ad8-6568-4227-abe4-ca2d14b5e2b4.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "Wooden Slide",
     url: "https://cdn.timepass.games/games/75bb24b5-e450-46a1-a9f6-df298ec7e176/5e769441-3fb9-4f01-bbb5-369c4fd32916/",
     thumbnail: "https://cdn.timepass.games/images/1a7f5b0a-3781-4ad1-9ad0-fb92759fdde1.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Fools Match",
+    url: "https://cdn.timepass.games/games/4e8e784d-38b4-45ce-93f3-7b3d32048a0e/8f098f7c-b58b-4e2e-98b9-04602731dc1e/",
+    thumbnail: "https://cdn.timepass.games/images/135ee1f1-5a52-4c9a-9133-a7e46a7a09bc.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Connect Merge",
+    url: "https://cdn.timepass.games/games/1379deb1-0192-4237-9f33-f0274ac42a72/f8f87336-c8de-451c-b6ba-b9d4635b341f/",
+    thumbnail: "https://cdn.timepass.games/images/71026ddb-b5ec-47f1-b851-7389f172def0.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Sum of N",
+    url: "https://cdn.timepass.games/games/24cbddf4-8fff-4172-b030-f039789a7392/05e1085c-b794-4923-9efd-486dd016d350/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/8e584eb9-cde7-4a3d-99ca-b53da1ca4e87.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Type Shift",
+    url: "https://cdn.timepass.games/games/1540cf05-8387-4a2e-b79f-fc2a89e8d610/d0b1381c-59a6-460b-9fe6-03d7ea411d15/",
+    thumbnail: "https://cdn.timepass.games/images/e540e3b2-2791-4db9-816b-6d4076958cd2.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Slide",
+    url: "https://cdn.timepass.games/games/b9d0989a-86ff-45b4-89c9-4898dc8ec8b6/909637c1-9713-435c-a085-73bf6e70ba56/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/ebd7bf83-5251-4d15-be59-733294f2ee73.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Watermelon Fruit 2048",
+    url: "https://cdn.timepass.games/games/8816fd93-69cf-4128-b665-8c558f35a71f/b22e39bc-a71c-4ebf-83ef-f9819cb6bc24/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/b7348861-a14f-45eb-8c05-869c82d42871.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Two Tiles",
+    url: "https://cdn.timepass.games/games/a2572d2a-7da7-4086-9338-5b843afbc98d/14d249e5-9bc3-47d6-88e3-d6ef51f37743/",
+    thumbnail: "https://cdn.timepass.games/images/53a1b6eb-b13e-4898-b788-3f095e2dd5eb.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Fire Up",
+    url: "https://cdn.timepass.games/games/a837b4d5-6cff-43d7-b56b-f5472b95e9bd/d68e2101-06a5-44b9-9c14-c2aa87fe8758/",
+    thumbnail: "https://cdn.timepass.games/images/904eb1fd-f7a4-4bc9-8720-db5c845e537a.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Take Off",
+    url: "https://cdn.timepass.games/games/05b1a817-deb7-42e3-95f7-7d2a388a9580/2b8e34d6-4987-459d-b051-be191145c554/",
+    thumbnail: "https://cdn.timepass.games/images/cecffec9-ae3f-45fe-b6ab-09209b4670d8.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Red Rope",
+    url: "https://cdn.timepass.games/games/7e7f2f7d-0beb-459b-946f-139b461a4cba/cf769f7b-3571-4f3b-8c23-237466f44054/",
+    thumbnail: "https://cdn.timepass.games/images/4ef5d4ef-e446-43da-94c2-2678ee46a48d.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Square Game",
+    url: "https://cdn.timepass.games/games/9a875167-9c7c-4802-8c82-9fa0d8632ea5/5566f807-8ea3-4dcf-868e-64e9bfcd38c0/",
+    thumbnail: "https://cdn.timepass.games/images/43f5c1d6-78b8-4959-a50f-701137a80625.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Bubble Up",
+    url: "https://cdn.timepass.games/games/50f9d5d8-67b7-4f8f-8651-e3af66558447/ecd62645-cd67-4be9-8235-3f2defd105d0/",
+    thumbnail: "https://cdn.timepass.games/images/a04011e6-6cd8-47d5-9bd2-8f325846ee13.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Rolly Vortex",
+    url: "https://cdn.timepass.games/games/0c121cc0-7dd6-4b32-a8de-6de66044be56/5edf8ec4-acbf-4795-81f4-e864eaf62e26/",
+    thumbnail: "https://cdn.timepass.games/images/f65178d5-ac4d-466e-888a-be30fa8334e3.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Geometry Rash",
+    url: "https://cdn.timepass.games/games/994589f9-8ecd-4170-aade-cfb0737cdfdc/b14b648a-bf36-40e1-bfb2-4d1f4515c26a/",
+    thumbnail: "https://cdn.timepass.games/images/52bce072-6120-40c3-807a-42f9103979e8.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Paper Quiz",
+    url: "https://cdn.timepass.games/games/99385111-81af-4055-b3f4-091e1f59a569/a37c1af6-68ad-4cbd-b1db-7cc97b9df208/",
+    thumbnail: "https://cdn.timepass.games/images/1e38a146-5791-42a2-9098-dd3dde8a4def.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Classic Sudoku",
+    url: "https://cdn.timepass.games/games/0010beb5-efbc-41ee-aac6-285ade0c6c6b/56ffbe6d-9878-456d-a4dd-c5a1120ef04c/",
+    thumbnail: "https://cdn.timepass.games/images/0b3ae083-579d-4952-8c33-78a7e2b5ac42.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Traffic Tap Puzzle",
+    url: "https://cdn.timepass.games/games/264ba7f8-68cb-4a07-abcb-798f4dc2d9eb/ff11e715-2af4-4295-9783-8254fee0acab/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/da5dab2e-53fe-4d00-9afb-095cafcb5584.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Summer Maze",
+    url: "https://cdn.timepass.games/games/0e4c5637-8935-4487-8160-1c312f7f7d3e/f7178de5-7bab-4d02-bd64-4cf9c14c48a6/",
+    thumbnail: "https://cdn.timepass.games/images/602128ea-3303-4438-b7d9-0290f6616ace.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Ninja Fruit Slice",
+    url: "https://cdn.timepass.games/games/ab5a48dd-d8f4-43ee-9d2e-0e8d907cc136/67f85484-2f6f-4c7f-92a8-ff8136687e4d/",
+    thumbnail: "https://cdn.timepass.games/images/2e85e65f-9751-4d4d-a3e9-c93082a36451.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Jet Rush",
+    url: "https://cdn.timepass.games/games/634e628e-8c43-4548-92aa-1a0faef1775c/6b823d47-113d-4260-a614-cc1d091653b9/",
+    thumbnail: "https://cdn.timepass.games/images/d9600692-54da-40c3-825b-e22c57d7a8ab.webp",
     categories: ["All Games"]
   },
   {
@@ -523,6 +781,24 @@ const gamesData = [
     categories: ["All Games"]
   },
   {
+    name: "Bubble Pet Saga",
+    url: "https://cdn.timepass.games/games/5f8c03e6-24e9-4ef7-adb9-4f1997561873/86f779ef-b589-4618-9550-0c4b4c139ce1/",
+    thumbnail: "https://cdn.timepass.games/images/c901a06d-0e85-4640-b7f2-896439514e99.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Boat Rush",
+    url: "https://cdn.timepass.games/games/ea662b93-f359-45bb-b31d-ef7ea8e68ae6/2de2e318-c3df-440b-bd40-ddaa6330b138/",
+    thumbnail: "https://cdn.timepass.games/images/5e3c21f7-171e-4606-9f2b-8aec2b84827d.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Helix Jump",
+    url: "https://cdn.timepass.games/games/48749ba2-e270-4aa7-833f-29f485919176/02ec686a-849b-4a04-9615-3d70eaceda4d/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/4e2ba028-d75f-4f90-bb7a-09aaa9ec738e.webp",
+    categories: ["All Games"]
+  },
+  {
     name: "2048 Balls",
     url: "https://cdn.timepass.games/games/d92fd9d6-c77d-49f9-aa8d-1c10be9ebd22/970ea8d8-7d63-42c1-a1d9-67e8e4042355/",
     thumbnail: "https://cdn.timepass.games/images/5aa946e8-fea7-4663-9e55-3084506bbb57.webp",
@@ -532,6 +808,12 @@ const gamesData = [
     name: "Cannon Blast",
     url: "https://cdn.timepass.games/games/beb78314-9be2-4b83-9756-cd81d22786dc/9f3bbce3-501c-42d7-bcac-18a9364dd659/",
     thumbnail: "https://cdn.simpleviralgames.com/images/2c9c0995-08c2-4500-ba50-a5ef47f6cd77.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Rise Up",
+    url: "https://cdn.timepass.games/games/4efb66dd-e707-4296-90ee-e458f627b91c/c4297830-34e9-43d0-9c0f-718bbdc7d85d/",
+    thumbnail: "https://cdn.timepass.games/images/e9fa3997-8035-4166-a952-ae695ad073fd.webp",
     categories: ["All Games"]
   },
   {
@@ -569,8 +851,398 @@ const gamesData = [
     url: "https://cdn.timepass.games/games/36d600ff-3a6b-4dfa-b5d7-58e9caef49f7/e71772b9-61f1-47c0-8a48-fe4aad587419/",
     thumbnail: "https://cdn.simpleviralgames.com/images/c5df243e-f1b2-449c-bd2c-4c93e2aefe0a.webp",
     categories: ["All Games"]
+  },
+  {
+    name: "Ultimate Sudoku",
+    url: "https://cdn.timepass.games/games/cca24660-7202-44fe-b28a-e69afed29d7d/536387f2-ba6a-4dee-88b9-b689c3207454/",
+    thumbnail: "https://cdn.timepass.games/images/c1dea4f8-3ab3-48e2-bde3-1e0f0143e702.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Knots",
+    url: "https://cdn.timepass.games/games/d61ced73-4631-43fa-9ba6-6971e4240e8b/685ff032-84ad-4c79-8d79-c720f27b85dd/",
+    thumbnail: "https://cdn.timepass.games/images/eb14a538-5a4d-4be9-83a2-26732e1d4d2b.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Slices",
+    url: "https://cdn.timepass.games/games/b6842665-89a3-45b3-9648-a3c0e237efba/ff60f474-02c1-463b-9885-0a9e68120a64/",
+    thumbnail: "https://cdn.timepass.games/images/be347f0f-19bd-42d1-bfda-2c7e9387266c.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Zero 21",
+    url: "https://cdn.timepass.games/games/255bc58e-96e9-4169-9a00-ecdf1b8782bb/047ec303-971d-43d5-bad8-3b81955926f8/",
+    thumbnail: "https://cdn.simpleviralgames.com/images/c5392808-4720-459f-a39c-eafd98e88825.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "Swipe Cubes",
+    url: "https://cdn.timepass.games/games/54059053-48bb-472b-9ab1-0f34d79bdb8f/a6926bb8-0450-4a3f-9cda-67403d2c7be6/",
+    thumbnail: "https://cdn.timepass.games/images/e0a90418-37ff-415d-b148-4e910ed2ec62.webp",
+    categories: ["All Games"]
+  },
+  {
+    name: "5 Fruit",
+    url: "https://htmlgames.play365game.com/5fruit/",
+    thumbnail: "./GAMES THUMBNAILS/1.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Aircraft",
+    url: "https://htmlgames.play365game.com/Aircraft/",
+    thumbnail: "./GAMES THUMBNAILS/2.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Air Hockey",
+    url: "https://htmlgames.play365game.com/airhockey/",
+    thumbnail: "./GAMES THUMBNAILS/3.jpeg",
+    categories: ["All Games","Arcade","Easy to Play"]
+  },
+  {
+    name: "Airport Rush",
+    url: "https://htmlgames.play365game.com/airportrush/",
+    thumbnail: "./GAMES THUMBNAILS/4.jpeg",
+    categories: ["All Games","Arcade","Action"]
+  },
+  {
+    name: "Avenger",
+    url: "https://htmlgames.play365game.com/avenger/",
+    thumbnail: "./GAMES THUMBNAILS/5.jpeg",
+    categories: ["All Games","Action"]
+  },
+  {
+    name: "Avenger Hydra Rush",
+    url: "https://htmlgames.play365game.com/avengerhydrarush/",
+    thumbnail: "./GAMES THUMBNAILS/6.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Babel",
+    url: "https://htmlgames.play365game.com/babel/",
+    thumbnail: "./GAMES THUMBNAILS/7.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Babelic",
+    url: "https://htmlgames.play365game.com/Babelic/",
+    thumbnail: "./GAMES THUMBNAILS/8.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Ball Jump",
+    url: "https://htmlgames.play365game.com/Ball-Jump/",
+    thumbnail: "./GAMES THUMBNAILS/9.jpeg",
+    categories: ["All Games","Arcade","Action"]
+  },
+  {
+    name: "Ball Rush",
+    url: "https://htmlgames.play365game.com/Ball-Rush/",
+    thumbnail: "./GAMES THUMBNAILS/10.jpeg",
+    categories: ["All Games","Arcade","Action"]
+  },
+  {
+    name: "Balloon Paradise",
+    url: "https://htmlgames.play365game.com/balloonparadise/",
+    thumbnail: "./GAMES THUMBNAILS/11.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Ball Up",
+    url: "https://htmlgames.play365game.com/ballup/",
+    thumbnail: "./GAMES THUMBNAILS/12.jpeg",
+    categories: ["All Games","Arcade","Easy to Play"]
+  },
+  {
+    name: "Barbie Sparkle",
+    url: "https://htmlgames.play365game.com/Barbie%20Sparkle/",
+    thumbnail: "./GAMES THUMBNAILS/13.jpeg",
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Barbie Cooking",
+    url: "https://htmlgames.play365game.com/barbie-cooking/",
+    thumbnail: "./GAMES THUMBNAILS/14.jpeg",
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Barbie Make Up",
+    url: "https://htmlgames.play365game.com/BarbieMakeUp/",
+    thumbnail: "./GAMES THUMBNAILS/15.jpeg",
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Bear Chase",
+    url: "https://htmlgames.play365game.com/bearchase/",
+    thumbnail: "./GAMES THUMBNAILS/16.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Beer Pushing",
+    url: "https://htmlgames.play365game.com/beerpushing/",
+    thumbnail: "./GAMES THUMBNAILS/17.jpeg",
+    categories: ["All Games","Arcade","Easy to Play"]
+  },
+  {
+    name: "Bike Speed",
+    url: "https://htmlgames.play365game.com/bikespeed/",
+    thumbnail: "./GAMES THUMBNAILS/18.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Bingo",
+    url: "https://htmlgames.play365game.com/bingo/",
+    thumbnail: "./GAMES THUMBNAILS/19.jpeg",
+    categories: ["All Games","Easy to Play","Puzzle"]
+  },
+  {
+    name: "Birds Jump",
+    url: "https://htmlgames.play365game.com/Birds-Jump/",
+    thumbnail: "./GAMES THUMBNAILS/20.jpeg",
+    categories: ["All Games","Arcade","Action"]
+  },
+  {
+    name: "Block It",
+    url: "https://htmlgames.play365game.com/blockit/",
+    thumbnail: "./GAMES THUMBNAILS/21.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Blue Story",
+    url: "https://htmlgames.play365game.com/bluestory/",
+    thumbnail: "./GAMES THUMBNAILS/22.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Boom Car",
+    url: "https://htmlgames.play365game.com/Boom-Car/",
+    thumbnail: "./GAMES THUMBNAILS/23.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Bottle Shoot",
+    url: "https://htmlgames.play365game.com/bottle-shoot/",
+    thumbnail: "./GAMES THUMBNAILS/24.jpeg",
+    categories: ["All Games","Action","Easy to Play"]
+  },
+  {
+    name: "Bottle Shoot Copy",
+    url: "https://htmlgames.play365game.com/bottle-shoot%20copy/",
+    thumbnail: "./GAMES THUMBNAILS/25.jpeg",
+    categories: ["All Games","Action","Easy to Play"]
+  },
+  {
+    name: "Bubbles",
+    url: "https://htmlgames.play365game.com/Bubbles/",
+    thumbnail: "./GAMES THUMBNAILS/26.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Bugs Bunny - Carrot Chase",
+    url: "https://htmlgames.play365game.com/Bugs%20Bunny-%20Carrot%20Chase/",
+    thumbnail: "./GAMES THUMBNAILS/27.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Bugs Bunny - Dare Diver",
+    url: "https://htmlgames.play365game.com/Bugs%20Bunny-%20Dare%20Diver/",
+    thumbnail: "./GAMES THUMBNAILS/28.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Bunnicula - Crop Control",
+    url: "https://htmlgames.play365game.com/Bunnicula%20-%20Crop%20Control/",
+    thumbnail: "./GAMES THUMBNAILS/29.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Bunnicula - Juicy Bites",
+    url: "https://htmlgames.play365game.com/Bunnicula%20-%20Juicy%20Bites/",
+    thumbnail: "./GAMES THUMBNAILS/30.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Bunnicula - Kaotic Kitchen",
+    url: "https://htmlgames.play365game.com/Bunnicula%20-%20Kaotic%20Kitchen/",
+    thumbnail: "./GAMES THUMBNAILS/31.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Bunnicula - Monster Match",
+    url: "https://htmlgames.play365game.com/Bunnicula%20-%20Monster%20Match/",
+    thumbnail: "./image.png",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Bunnicula - Rescuing Harold",
+    url: "https://htmlgames.play365game.com/Bunnicula%20-%20Rescuing%20Harold/",
+    thumbnail: "./GAMES THUMBNAILS/32.jpeg",
+    categories: ["All Games","Action","Easy to Play"]
+  },
+  {
+    name: "Bunnicula And The Cursed Diamond",
+    url: "https://htmlgames.play365game.com/Bunnicula%20And%20The%20Cursed%20Diamond/",
+    thumbnail: "./GAMES THUMBNAILS/33.jpeg",
+    categories: ["All Games","Puzzle","Action"]
+  },
+  {
+    name: "Burger Maker",
+    url: "https://htmlgames.play365game.com/burgermaker/",
+    thumbnail: "./GAMES THUMBNAILS/34.jpeg",
+    categories: ["All Games","Easy to Play"]
+  },
+  {
+    name: "Crash & Bernball",
+    url: "https://htmlgames.play365game.com/C&B%20-%20Crash%20&%20Bernball/",
+    thumbnail: "./GAMES THUMBNAILS/35.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Candy Fusion",
+    url: "https://htmlgames.play365game.com/candyfusion/",
+    thumbnail: "./GAMES THUMBNAILS/36.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Candy Rush",
+    url: "https://htmlgames.play365game.com/candyrush/",
+    thumbnail: "./GAMES THUMBNAILS/37.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Candy Super Lines",
+    url: "https://htmlgames.play365game.com/candysuperlines/",
+    thumbnail: "./GAMES THUMBNAILS/38.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Car Race",
+    url: "https://htmlgames.play365game.com/Car-Race/",
+    thumbnail: "./GAMES THUMBNAILS/39.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Cars",
+    url: "https://htmlgames.play365game.com/cars/",
+    thumbnail: "./GAMES THUMBNAILS/40.jpeg",
+    categories: ["All Games","Arcade","Action"]
+  },
+  {
+    name: "Cat Action",
+    url: "https://htmlgames.play365game.com/Cat-action/",
+    thumbnail: "./GAMES THUMBNAILS/41.jpeg",
+    categories: ["All Games","Action"]
+  },
+  {
+    name: "Cat Candy",
+    url: "https://htmlgames.play365game.com/cat-candy/",
+    thumbnail: "./GAMES THUMBNAILS/42.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Cat Flap",
+    url: "https://htmlgames.play365game.com/Cat-flap/",
+    thumbnail: "./GAMES THUMBNAILS/43.jpeg",
+    categories: ["All Games","Arcade","Easy to Play"]
+  },
+  {
+    name: "Catch The Monster",
+    url: "https://htmlgames.play365game.com/catchthemonster/",
+    thumbnail: "./GAMES THUMBNAILS/44.jpeg",
+    categories: ["All Games","Action"]
+  },
+  {
+    name: "Chimney Port",
+    url: "https://htmlgames.play365game.com/Chimney-Port/",
+    thumbnail: "./GAMES THUMBNAILS/45.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Chippolino",
+    url: "https://htmlgames.play365game.com/chippolino/",
+    thumbnail: "./GAMES THUMBNAILS/46.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Circle Traffic",
+    url: "https://htmlgames.play365game.com/circletraffic/",
+    thumbnail: "./GAMES THUMBNAILS/47.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Clan Samurai",
+    url: "https://htmlgames.play365game.com/clansamurai/",
+    thumbnail: "./GAMES THUMBNAILS/48.jpeg",
+    categories: ["All Games","Action"]
+  },
+  {
+    name: "Coil Chaining",
+    url: "https://htmlgames.play365game.com/coil-chaining/",
+    thumbnail: "./GAMES THUMBNAILS/49.jpeg",
+    categories: ["All Games","Puzzle"]
+  },
+  {
+    name: "Color Valley",
+    url: "https://htmlgames.play365game.com/colorvalley/",
+    thumbnail: "./image.png",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "Copter",
+    url: "https://htmlgames.play365game.com/Copter/",
+    thumbnail: "./GAMES THUMBNAILS/50.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Crazy Car",
+    url: "https://htmlgames.play365game.com/crazycar/",
+    thumbnail: "./GAMES THUMBNAILS/51.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Crazy Runner",
+    url: "https://htmlgames.play365game.com/crazyrunner/",
+    thumbnail: "./GAMES THUMBNAILS/52.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Dark Country",
+    url: "https://htmlgames.play365game.com/Dark-Country/",
+    thumbnail: "./GAMES THUMBNAILS/53.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Dennis & Gnasher Unleashed Clone Ranger",
+    url: "https://htmlgames.play365game.com/Dennis%20&%20Gnasher%20Unleashed%20Clone%20Ranger/",
+    thumbnail: "./GAMES THUMBNAILS/54.jpeg",
+    categories: ["All Games","Action","Easy to Play"]
+  },
+  {
+    name: "Descendants 2 - Mal Vs Uma",
+    url: "https://htmlgames.play365game.com/Descendants%202%20-%20Mal%20Vs%20Uma/",
+    thumbnail: "./GAMES THUMBNAILS/55.jpeg",
+    categories: ["All Games","Action","Easy to Play"]
+  },
+  {
+    name: "Dino Bubbles",
+    url: "https://htmlgames.play365game.com/dinobubbles/",
+    thumbnail: "./GAMES THUMBNAILS/56.jpeg",
+    categories: ["All Games","Puzzle","Easy to Play"]
+  },
+  {
+    name: "DisneyNOW - Cart Blaster",
+    url: "https://htmlgames.play365game.com/DisneyNOW%20-%20Cart%20Blaster/",
+    thumbnail: "./GAMES THUMBNAILS/57.jpeg",
+    categories: ["All Games","Action","Arcade"]
+  },
+  {
+    name: "Don't Miss",
+    url: "https://htmlgames.play365game.com/dontmiss/",
+    thumbnail: "./GAMES THUMBNAILS/58.jpeg",
+    categories: ["All Games","Arcade","Easy to Play"]
   }
-];
+]
 
 // Render games
 function renderGames(category = 'all') {
