@@ -675,26 +675,6 @@ document
     updateCamPos.set(-0.3, 0, 5);
 });
 
-//SOUND TOGGLE
-const backgroundSound = new Audio("./audios/Gratitude_Spiritual-Moment.mp3");
-let soundOn = true;
-document
-  .querySelector(".sound")
-  .addEventListener("click", function(event) {
-    if (soundOn === true) {
-      this.style.opacity = 1;
-      backgroundSound.pause();
-      this.style.backgroundImage = "url('./images/icon-mute-96.webp')";
-      soundOn = false;
-    } else {
-      this.style.opacity = 0.2;
-      backgroundSound.play();
-      backgroundSound.volume = 0.5;
-      backgroundSound.loop = true;
-      this.style.backgroundImage = "url('./images/icon-sound-96.webp')";
-    soundOn = true;
-    }
-});
 
 //WHOOSH SOUND
 document.querySelectorAll("a").forEach((each) => {
@@ -713,7 +693,6 @@ document.addEventListener('click', (e) => {
     if (gameUrl) {
       document.getElementById('game-iframe').src = gameUrl;
       document.getElementById('game-overlay').style.display = 'flex';
-      backgroundSound.pause();
     }
   }
 });
